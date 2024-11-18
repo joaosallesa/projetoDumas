@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+body{
+    width: 100%;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+#part1{
+
+    background-color: #c283ca;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+#part2{
+    padding: 2% 0 2% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#part3{
+    background-color: #c283ca;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 30%;    
+}
+#part3>a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+.s{
+    color: #5b2b61;
+}
+#part4>h1,p{
+    margin: 0;
+    margin-bottom: 2%;
+}
+
+#part4{
+    
+    background-color: #f6d3fb;
+    color: #5b2b61;
+    padding: 5% 10% 5% 10%;
+}
+
+#part5>p{
+    text-decoration: none;
+    margin: 0;
+}
+#part5{
+    background-color: #c283ca;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 60px;
+    padding: 2%;
+}
+
+@media (max-width:500px) {
+
+    #part3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
